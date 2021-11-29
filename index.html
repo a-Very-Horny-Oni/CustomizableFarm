@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customizable Animal Farm</title>
+</head>
+<body>
+    <canvas width="500" height="500" id="farm"></canvas>
+    <p><h1>Customizable Animal Farm</h1></p>
+    <p>You can select the number of pigs, cows and chickens with input</p>
+    <p>Number of pigs: <input type="text" id="pig_count"></p>
+    <p>Number of cows: <input type="text" id="cow_count"></p>
+    <p>Number of chickens: <input type="text" id="chicken_count"></p>
+    <button type="button" id="send_counts" onclick="draw_farm()">Create new farm</button>
+    <button type="button" id="refresh" onclick="refresh_farm()">Delete farm</button>
+    <script src="script.js"></script>
+</body>
+</html>
